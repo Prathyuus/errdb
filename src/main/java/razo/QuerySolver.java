@@ -39,7 +39,7 @@ public class QuerySolver extends SQLow
        
        try
        {
-	       FileReader ip=new FileReader("ipl1.csv");
+	       FileReader ip=new FileReader("/home/sapient/Documents/ipl1.csv");
 	       try
 	       {
 		       Scanner parser=new Scanner(ip);
@@ -135,7 +135,7 @@ public class QuerySolver extends SQLow
 	    	  System.out.println(obj[i].umpire3);
 	      }
     	  //Scanning the header from the file	 
-    	  FileReader ip=new FileReader("ipl1.csv");
+    	  FileReader ip=new FileReader("/home/sapient/Documents/sipl1.csv");
     		 Scanner parser=new Scanner(ip);
     		 String hdr=parser.nextLine();
     		 String[] header=hdr.split(",");

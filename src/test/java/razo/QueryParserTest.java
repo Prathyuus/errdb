@@ -26,14 +26,14 @@ public class QueryParserTest {
 	String afwh = juint.afterwhere(name);
 	Assert.assertTrue(afwh.equals("season > 2014 and city = 'Bangalore' order by win_by_runs group by team1"));
 	}
-	@Test
-	public void test3() {
+	//@Test
+	/*public void test3() {
 	// To check the conditions
 	String[] conditions= {"","","",""};
 	conditions = juint.restrictions(spqry,name);
 	Assert.assertTrue(conditions[0].equals("season>2014"));
 	Assert.assertTrue(conditions[1].equals("city='Bangalore'"));
-	}
+	}*/
 	@Test
 	public void test4() {
 	//To check logical operator
